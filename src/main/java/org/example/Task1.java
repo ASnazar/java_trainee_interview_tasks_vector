@@ -2,8 +2,11 @@ package org.example;
 
 public class Task1 {
     public static void main(String[] args) {
-        System.out.println(encoding("WEAREDISCOVEREDFLEEATONCE", 3).equals("WECRLTEERDSOEEFEAOCAIVDEN"));
-        System.out.println(decoding("NRKAABLOZA", 3));
+        int numberRails = 3;
+        String exampleString = "WEAREDISCOVEREDFLEEATONCE";
+        String encodedString = "WECRLTEERDSOEEFEAOCAIVDEN";
+        System.out.println(encoding(exampleString, numberRails).equals(encodedString));
+        System.out.println(decoding(encodedString,numberRails).equals(exampleString));
     }
 
     public static String encoding(String text, int numberRails) {

@@ -1,6 +1,6 @@
 package org.example.shapesTask4;
 
-public class Square implements Shape {
+public class Square extends Shape {
     private double side;
 
     public Square(double side) {

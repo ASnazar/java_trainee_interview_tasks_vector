@@ -1,6 +1,6 @@
 package org.example.shapesTask4;
 
-public class Circle implements Shape{
+public class Circle extends Shape{
     private double radius;
 
     public Circle(double radius) {
